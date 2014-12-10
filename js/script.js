@@ -6,7 +6,7 @@ $(document).ready(function () {
 // $(".posts").html(posts['posts'][0]['title']);
 //
 // });
-$(this).load("https://github.com/LudwinGarcia/frontend-blog/blob/master/_posts/posts.json", function(data){
+$(this).load("frontend-blog/blob/master/_posts/posts.json", function(data){
 var posts = JSON.parse(data);
 $(".posts").html(posts['posts'][0]['content']);
 $(".posts2").html(posts['posts'][1]['content']);
